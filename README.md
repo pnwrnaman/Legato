@@ -56,12 +56,15 @@ The system converts audio into **Mel Spectrograms**, processes them using a cust
 We use a **Custom Sequential CNN** designed specifically for Spectrogram analysis.
 
 1.  **Input:** Mel Spectrogram (128 x 130 x 1).
-2.  **Feature Extraction:** * 4x Convolutional Blocks (`Conv2D` + `ReLU`).
+2.  **Feature Extraction:**
+    * 4x Convolutional Blocks (`Conv2D` + `ReLU`).
     * `MaxPooling2D` for dimension reduction.
     * `BatchNormalization` for training stability.
-3.  **Regularization:** * `L2 Regularization` to prevent large weights.
+3.  **Regularization:**
+    * `L2 Regularization` to prevent large weights.
     * `Dropout (0.5)` to prevent overfitting.
-4.  **Classification:** * `Flatten` layer.
+4.  **Classification:**
+    * `Flatten` layer.
     * `Dense` (Softmax) Output layer for 10 genres.
 5.  **Optimizer:** Adam (`lr=0.0001`).
 
@@ -85,5 +88,5 @@ The model was trained on the **GTZAN Genre Collection**.
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/music-genre-classifier.git](https://github.com/your-username/music-genre-classifier.git)
+git clone [https://github.com/pnwrnaman/music-genre-classifier.git](https://github.com/pnwrnaman/music-genre-classifier.git)
 cd music-genre-classifier
