@@ -1,5 +1,5 @@
 # Legato
-# 🎵 Music Genre Classification App (CNN + Flutter + FastAPI)
+# 🎵 Legato: Music Genre Classification App
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
@@ -7,7 +7,7 @@
 ![Flutter](https://img.shields.io/badge/Flutter-3.0-02569B)
 ![Librosa](https://img.shields.io/badge/Librosa-Audio_Analysis-yellow)
 
-An end-to-end **Deep Learning application** that classifies music genres from raw audio files or real-time microphone recordings. 
+**Legato** is an end-to-end **Deep Learning application** that classifies music genres from raw audio files or real-time microphone recordings.
 
 The system converts audio into **Mel Spectrograms**, processes them using a custom **Convolutional Neural Network (CNN)**, and serves predictions via a high-performance **FastAPI** backend to a **Flutter** mobile app.
 
@@ -88,5 +88,5 @@ The model was trained on the **GTZAN Genre Collection**.
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/pnwrnaman/music-genre-classifier.git](https://github.com/pnwrnaman/music-genre-classifier.git)
-cd music-genre-classifier
+git clone [https://github.com/pnwrnaman/legato.git](https://github.com/pnwrnaman/legato.git)
+cd legato
