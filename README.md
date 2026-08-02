@@ -13,14 +13,6 @@ The system converts audio into **Mel Spectrograms**, processes them using a cust
 
 ---
 
-## 📸 Screenshots
-
-| Home Screen | Recording | Result Screen |
-|:---:|:---:|:---:|
-| ![Home](https://via.placeholder.com/200x400?text=Home+Screen) | ![Recording](https://via.placeholder.com/200x400?text=Recording) | ![Result](https://via.placeholder.com/200x400?text=Genre+Result) |
-> *(Replace these placeholders with actual screenshots of your app)*
-
----
 
 ## 🚀 Key Features
 
